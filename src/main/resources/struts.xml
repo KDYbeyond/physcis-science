@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!-- 
+	<package name="view" extends="struts-default">
+		<action name="cust_*" class="custAction" method="{1}">
+			<result name="findByPageBean">customers/cusLists.jsp</result>
+			<result name="addCustomer" type="redirectAction">cust_findByPageBean</result>
+		</action>
+		<action name="store_*" class="storeAction" method="{1}">
+			<result name="addStore" type="redirectAction">store_findAll.action</result>
+			<result name="findAll">stores/storeList.jsp</result> 
+			<result name="findPotentialCustomersUI">customers/potentialCustomer.jsp</result>
+			<result name="findCompetitorsUI">competitor/competitors.jsp</result>
+			<result name="findPotentialCustomers">customers/potentialCustomerResult.jsp</result>
+			<result name="findCompetitors">competitor/competitorsResult.jsp</result>
+		</action>
+	</package>
+	 -->
+</struts>
