@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ustb.entity.ExperimentTable" table="t_experimentTable">
+		<id name="group" type="java.lang.String">
+			<column name="Group" />
+			<generator class="assigned" />
+		</id>
+		<property name="first_name" type="java.lang.String">
+			<column name="First_name" />
+		</property>
+		<property name="first_weeks" type="java.lang.String">
+			<column name="First_weeks" />
+		</property>
+		<property name="first_address" type="java.lang.String">
+			<column name="First_address" />
+		</property>
+		<property name="second_name" type="java.lang.String">
+			<column name="Second_name" />
+		</property>
+		<property name="second_weeks" type="java.lang.String">
+			<column name="Second_weeks" />
+		</property>
+		<property name="second_address" type="java.lang.String">
+			<column name="Second_address" />
+		</property>
+		<property name="third_name" type="java.lang.String">
+			<column name="Third_name" />
+		</property>
+		<property name="third_weeks" type="java.lang.String">
+			<column name="Third_weeks" />
+		</property>
+		<property name="third_address" type="java.lang.String">
+			<column name="Third_address" />
+		</property>
+		<property name="four_name" type="java.lang.String">
+			<column name="Four_name" />
+		</property>
+		<property name="four_weeks" type="java.lang.String">
+			<column name="Four_weeks" />
+		</property>
+		<property name="four_address" type="java.lang.String">
+			<column name="Four_address" />
+		</property>
+		<property name="five_name" type="java.lang.String">
+			<column name="Five_name" />
+		</property>
+		<property name="five_weeks" type="java.lang.String">
+			<column name="Five_weeks" />
+		</property>
+		<property name="five_address" type="java.lang.String">
+			<column name="Five_address" />
+		</property>
+		<property name="six_name" type="java.lang.String">
+			<column name="Six_name" />
+		</property>
+		<property name="six_weeks" type="java.lang.String">
+			<column name="Six_weeks" />
+		</property>
+		<property name="six_address" type="java.lang.String">
+			<column name="Six_address" />
+		</property>
+		<property name="seven_name" type="java.lang.String">
+			<column name="Seven_name" />
+		</property>
+		<property name="seven_weeks" type="java.lang.String">
+			<column name="Seven_weeks" />
+		</property>
+		<property name="seven_address" type="java.lang.String">
+			<column name="Seven_address" />
+		</property>
+		<property name="eight_name" type="java.lang.String">
+			<column name="Eight_name" />
+		</property>
+		<property name="eight_weeks" type="java.lang.String">
+			<column name="Eight_weeks" />
+		</property>
+		<property name="eight_address" type="java.lang.String">
+			<column name="Eight_address" />
+		</property>
+		<property name="nine_name" type="java.lang.String">
+			<column name="Nine_name" />
+		</property>
+		<property name="nine_weeks" type="java.lang.String">
+			<column name="Nine_weeks" />
+		</property>
+		<property name="nine_address" type="java.lang.String">
+			<column name="Nine_address" />
+		</property>
+		<property name="ten_name" type="java.lang.String">
+			<column name="Ten_name" />
+		</property>
+		<property name="ten_weeks" type="java.lang.String">
+			<column name="Ten_weeks" />
+		</property>
+		<property name="ten_address" type="java.lang.String">
+			<column name="Ten_address" />
+		</property>
+		<property name="evelen_name" type="java.lang.String">
+			<column name="Evelen_name" />
+		</property>
+		<property name="evelen_weeks" type="java.lang.String">
+			<column name="Evelen_weeks" />
+		</property>
+		<property name="evelen_address" type="java.lang.String">
+			<column name="Evelen_address" />
+		</property>
+		<property name="tween_name" type="java.lang.String">
+			<column name="Tween_name" />
+		</property>
+		<property name="tween_weeks" type="java.lang.String">
+			<column name="Tween_weeks" />
+		</property>
+		<property name="tween_address" type="java.lang.String">
+			<column name="Tween_address" />
+		</property>
+		<property name="thirty_name" type="java.lang.String">
+			<column name="Thirty_name" />
+		</property>
+		<property name="thirty_weeks" type="java.lang.String">
+			<column name="Thirty_weeks" />
+		</property>
+		<property name="thirty_address" type="java.lang.String">
+			<column name="Thirty_address" />
+		</property>
+		<property name="fourty_name" type="java.lang.String">
+			<column name="Fourty_name" />
+		</property>
+		<property name="fourty_weeks" type="java.lang.String">
+			<column name="Fourty_weeks" />
+		</property>
+		<property name="fourty_address" type="java.lang.String">
+			<column name="Fourty_address" />
+		</property>
+		<property name="fifty_name" type="java.lang.String">
+			<column name="Fifty_name" />
+		</property>
+		<property name="fifty_weeks" type="java.lang.String">
+			<column name="Fifty_weeks" />
+		</property>
+		<property name="fifty_address" type="java.lang.String">
+			<column name="Fifty_address" />
+		</property>
+		<property name="sixty_name" type="java.lang.String">
+			<column name="Sixty_name" />
+		</property>
+		<property name="sixty_weeks" type="java.lang.String">
+			<column name="sixty_weeks" />
+		</property>
+		<property name="sixty_address" type="java.lang.String">
+			<column name="Sixty_address" />
+		</property>
+	</class>
+</hibernate-mapping>
