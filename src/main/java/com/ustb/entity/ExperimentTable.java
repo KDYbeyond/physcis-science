@@ -1,8 +1,8 @@
 package com.ustb.entity;
 
 /**
- * @author 匡东洋 E-mail:473948143@qq.com
- * @version 创建时间：2017年8月4日 下午2:23:57 类说明
+ * @author 鍖′笢娲� E-mail:473948143@qq.com
+ * @version 鍒涘缓鏃堕棿锛�2017骞�8鏈�4鏃� 涓嬪崍2:23:57 绫昏鏄�
  */
 public class ExperimentTable {
 	private String group;
@@ -53,6 +53,7 @@ public class ExperimentTable {
 	private String fifty_address;
 	private String sixty_name;
 	private String sixty_weeks;
+	private String sixty_address;
 
 	public String getGroup() {
 		return group;
@@ -446,5 +447,4 @@ public class ExperimentTable {
 		this.sixty_address = sixty_address;
 	}
 
-	private String sixty_address;
 }

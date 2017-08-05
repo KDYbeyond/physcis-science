@@ -42,4 +42,15 @@
 		<servlet-name>TeacherLogin</servlet-name>
 		<url-pattern>/teacherlogin.servlet</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExperimentTable</servlet-name>
+		<servlet-class>com.ustb.servlet.AddTableServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExperimentTable</servlet-name>
+		<url-pattern>/ExperimentTable.servlet</url-pattern>
+	</servlet-mapping>
+
 </web-app>

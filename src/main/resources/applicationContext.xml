@@ -10,13 +10,19 @@
         http://www.springframework.org/schema/aop/spring-aop.xsd
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx.xsd">
-	
+
 	<!-- 配置Service的类 -->
 	<bean id="teacServiceImpl" class="com.ustb.ServiceImpl.TeacherServiceImpl">
 		<property name="teacherDao" ref="teacDaoImpl"></property>
 	</bean>
+	<bean id="experimentServiceImpl" class="com.ustb.ServiceImpl.ExperimentServiceImpl">
+		<property name="experimentTableDao" ref="experimentTableDaoImpl"></property>
+	</bean>
 	<!-- 配置DAO的类 -->
 	<bean id="teacDaoImpl" class="com.ustb.DaoImpl.TeacherDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="experimentTableDaoImpl" class="com.ustb.DaoImpl.ExperimentTableDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory"></property>
 	</bean>
 	<!-- 引入外部文件 -->
@@ -40,7 +46,8 @@
 				<prop key="hibernate.show_sql">true</prop>
 				<prop key="hibernate.format_sql">true</prop>
 				<prop key="hibernate.hbm2ddl.auto">update</prop>
-				<prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext</prop>
+				<prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext
+				</prop>
 			</props>
 		</property>
 		<property name="mappingResources">
@@ -49,7 +56,7 @@
 					com/ustb/entity/Teacher.hbm.xml
 				</value>
 				<value>
-				    com/ustb/entity/Student.hbm.xml
+					com/ustb/entity/Student.hbm.xml
 				</value>
 			</list>
 		</property>
