@@ -8,7 +8,12 @@
 </head>
 <body>
 	<div align="center">
-		<center>
+	</div>
+</body>
+</html>
+
+<!-- 
+<center>
 			<form action="" target="">
 				<table cellspacing="20px">
 					<tr>
@@ -92,6 +97,5 @@
 				</table>
 			</form>
 		</center>
-	</div>
-</body>
-</html>
+
+ -->

@@ -8,35 +8,35 @@
 </head>
 <body>
 	<center>
-		<form action="">
+		<form action="experimentTable.servlet">
 			<select name="group" style="width: 100px">
 				<option value="未选">实验分组</option>
-				<option value="A组">A组</option>
-				<option value="B组">B组</option>
-				<option value="C组">C组</option>
-				<option value="D组">D组</option>
-				<option value="E组">E组</option>
-				<option value="F组">F组</option>
-				<option value="G组">G组</option>
-				<option value="H组">H组</option>
-				<option value="I组">I组</option>
-				<option value="J组">J组</option>
-				<option value="K组">K组</option>
-				<option value="L组">L组</option>
-				<option value="M组">M组</option>
-				<option value="N组">N组</option>
-				<option value="O组">O组</option>
-				<option value="P组">P组</option>
-				<option value="Q组">Q组</option>
-				<option value="R组">R组</option>
-				<option value="S组">S组</option>
-				<option value="T组">T组</option>
-				<option value="U组">U组</option>
-				<option value="V组">V组</option>
-				<option value="W组">W组</option>
-				<option value="X组">X组</option>
-				<option value="Y组">Y组</option>
-				<option value="Z组">Z组</option>
+				<option value="A">A组</option>
+				<option value="B">B组</option>
+				<option value="C">C组</option>
+				<option value="D">D组</option>
+				<option value="E">E组</option>
+				<option value="F">F组</option>
+				<option value="G">G组</option>
+				<option value="H">H组</option>
+				<option value="I">I组</option>
+				<option value="J">J组</option>
+				<option value="K">K组</option>
+				<option value="L">L组</option>
+				<option value="M">M组</option>
+				<option value="N">N组</option>
+				<option value="O">O组</option>
+				<option value="P">P组</option>
+				<option value="Q">Q组</option>
+				<option value="R">R组</option>
+				<option value="S">S组</option>
+				<option value="T">T组</option>
+				<option value="U">U组</option>
+				<option value="V">V组</option>
+				<option value="W">W组</option>
+				<option value="X">X组</option>
+				<option value="Y">Y组</option>
+				<option value="Z">Z组</option>
 			</select>
 			<table border="1" width="100px" height="400px" align="center">
 				<tr>
@@ -67,31 +67,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="first_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="first_weeks" type="text" />
 						<div>
 							<select name="first_address" style="width: 100px">
 								<option>实验地点</option>
@@ -168,31 +144,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="second_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="second_weeks" type="text" />
 						<div>
 							<select name="second_address" style="width: 100px">
 								<option>实验地点</option>
@@ -269,31 +221,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="third_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="third_weeks" type="text" />
 						<div>
 							<select name="third_address" style="width: 100px">
 								<option>实验地点</option>
@@ -370,31 +298,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="four_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="four_weeks" type="text" />
 						<div>
 							<select name="four_address" style="width: 100px">
 								<option>实验地点</option>
@@ -473,31 +377,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="five_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="five_weeks" type="text" />
 						<div>
 							<select name="five_address" style="width: 100px">
 								<option>实验地点</option>
@@ -574,31 +454,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="six_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="six_weeks" type="text" />
 						<div>
 							<select name="six_address" style="width: 100px">
 								<option>实验地点</option>
@@ -675,31 +531,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="seven_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="seven_weeks" type="text" />
 						<div>
 							<select name="seven_address" style="width: 100px">
 								<option>实验地点</option>
@@ -776,31 +608,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="eight_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="eight_weeks" type="text" />
 						<div>
 							<select name="eight_address" style="width: 100px">
 								<option>实验地点</option>
@@ -879,31 +687,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="nine_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="nine_weeks" type="text" />
 						<div>
 							<select name="nine_address" style="width: 100px">
 								<option>实验地点</option>
@@ -980,31 +764,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="ten_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="ten_weeks" type="text" />
 						<div>
 							<select name="ten_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1081,31 +841,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="evelen_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="evelen_weeks" type="text" />
 						<div>
 							<select name="evelen_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1182,31 +918,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="tween_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="tween_weeks" type="text" />
 						<div>
 							<select name="tween_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1285,31 +997,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="thirty_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="thirty_weeks" type="text" />
 						<div>
 							<select name="thirty_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1386,31 +1074,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="fourty_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="fourty_weeks" type="text" />
 						<div>
 							<select name="fourty_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1487,31 +1151,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="fifty_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="fifty_weeks" type="text" />
 						<div>
 							<select name="fifty_address" style="width: 100px">
 								<option>实验地点</option>
@@ -1588,31 +1228,7 @@
 								<option value="受迫振动的研究">受迫振动的研究</option>
 								<option value="考试">考试</option>
 							</select>
-						</div>
-						<div>
-							<select name="sixty_weeks" style="width: 100px">
-								<option>实验周数</option>
-								<option value="第一周">第一周</option>
-								<option value="第二周">第二周</option>
-								<option value="第三周">第三周</option>
-								<option value="第四周">第四周</option>
-								<option value="第五周">第五周</option>
-								<option value="第六周">第六周</option>
-								<option value="第七周">第七周</option>
-								<option value="第八周">第八周</option>
-								<option value="第九周">第九周</option>
-								<option value="第十周">第十周</option>
-								<option value="第十一周">第十一周</option>
-								<option value="第十二周">第十二周</option>
-								<option value="第十三周">第十三周</option>
-								<option value="第十四周">第十四周</option>
-								<option value="第十五周">第十五周</option>
-								<option value="第十六周">第十六周</option>
-								<option value="第十七周">第十七周</option>
-								<option value="第十八周">第十八周</option>
-								<option value="第十九周">第十九周</option>
-							</select>
-						</div>
+						</div> <input name="sixty_weeks" type="text" />
 						<div>
 							<select name="sixty_address" style="width: 100px">
 								<option>实验地点</option>

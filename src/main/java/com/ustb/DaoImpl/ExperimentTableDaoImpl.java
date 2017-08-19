@@ -1,20 +1,41 @@
 package com.ustb.DaoImpl;
 
+import java.util.List;
+
+import org.hibernate.FlushMode;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 
 import com.ustb.Dao.ExperimentTableDao;
 import com.ustb.entity.ExperimentTable;
 
 /**
- * @author ¿ï¶«Ñó E-mail:473948143@qq.com
- * @version ´´½¨Ê±¼ä£º2017Äê8ÔÂ5ÈÕ ÏÂÎç8:43:42 ÀàËµÃ÷
+ * @author åŒ¡ä¸œæ´‹ E-mail:473948143@qq.com
+ * @version åˆ›å»ºæ—¶é—´ï¼š2017å¹´8æœˆ5æ—¥ ä¸‹åˆ8:43:42 ç±»è¯´æ˜
  */
 public class ExperimentTableDaoImpl extends HibernateDaoSupport implements ExperimentTableDao {
 	private SessionFactory sessionFactory;
+	private static final String findTableByGroup = "from ExperimentTable exper where exper.group=?";
 
 	public void addTable(ExperimentTable experimentTable) {
-		this.getHibernateTemplate().saveOrUpdate(experimentTable);
+		sessionFactory = this.getSessionFactory();
+		Session currentSession = sessionFactory.openSession();
+		Transaction transaction = currentSession.beginTransaction();
+		currentSession.setFlushMode(FlushMode.COMMIT);
+		currentSession.saveOrUpdate(experimentTable);
+		transaction.commit();
 	}
 
+	@SuppressWarnings("unchecked")
+	public ExperimentTable findTableByGroup(String group) {
+		List<ExperimentTable> experimentTables = (List<ExperimentTable>) this.getHibernateTemplate()
+				.find(findTableByGroup, group);
+		if (experimentTables.isEmpty()) {
+			return null;
+		} else {
+			return experimentTables.get(0);
+		}
+	}
 }

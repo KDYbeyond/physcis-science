@@ -20,4 +20,12 @@
 		</action>
 	</package>
 	 -->
+	 <package name="view" extends="struts-default">
+	     <action name="student_*" class="studentAction" method="{1}">
+	         <result name="findByPageBean">studentinfo.jsp</result>
+	     </action>
+	     <action name="sign_*" class="signAction" method="{1}">
+	         <result name="findByPageBean">sign.jsp</result>
+	     </action>
+	 </package>
 </struts>

@@ -4,7 +4,7 @@
 <hibernate-mapping>
 	<class name="com.ustb.entity.ExperimentTable" table="t_experimentTable">
 		<id name="group" type="java.lang.String">
-			<column name="Group" />
+			<column name="TableGroup" />
 			<generator class="assigned" />
 		</id>
 		<property name="first_name" type="java.lang.String">

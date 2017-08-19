@@ -11,18 +11,41 @@
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
+	<!-- 配置Action的类 -->
+	<bean id="studentAction" class="com.ustb.Action.StudentAction"
+		scope="prototype">
+		<property name="studentService" ref="studentServiceImpl"></property>
+	</bean>
+	<bean id="signAction" class="com.ustb.Action.SignAction" scope="prototype">
+		<property name="signService" ref="signServiceImpl"></property>
+	</bean>
 	<!-- 配置Service的类 -->
 	<bean id="teacServiceImpl" class="com.ustb.ServiceImpl.TeacherServiceImpl">
 		<property name="teacherDao" ref="teacDaoImpl"></property>
 	</bean>
 	<bean id="experimentServiceImpl" class="com.ustb.ServiceImpl.ExperimentServiceImpl">
-		<property name="experimentTableDao" ref="experimentTableDaoImpl"></property>
+		<property name="experimentTableDao" ref="experDaoImpl"></property>
+	</bean>
+	<bean id="studentServiceImpl" class="com.ustb.ServiceImpl.StudentServiceImpl">
+		<property name="studentDao" ref="studentDaoImpl"></property>
+	</bean>
+	<bean id="studentSignServiceImpl" class="com.ustb.ServiceImpl.StudentSignServiceImpl">
+		<property name="signDao" ref="signDaoImpl"></property>
+	</bean>
+	<bean id="signServiceImpl" class="com.ustb.ServiceImpl.SignServiceImpl">
+		<property name="signDao" ref="signDaoImpl"></property>
 	</bean>
 	<!-- 配置DAO的类 -->
 	<bean id="teacDaoImpl" class="com.ustb.DaoImpl.TeacherDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory"></property>
 	</bean>
-	<bean id="experimentTableDaoImpl" class="com.ustb.DaoImpl.ExperimentTableDaoImpl">
+	<bean id="experDaoImpl" class="com.ustb.DaoImpl.ExperimentTableDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="signDaoImpl" class="com.ustb.DaoImpl.SignDaoImpl">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	<bean id="studentDaoImpl" class="com.ustb.DaoImpl.StudentDaoImpl">
 		<property name="sessionFactory" ref="sessionFactory"></property>
 	</bean>
 	<!-- 引入外部文件 -->
@@ -57,6 +80,12 @@
 				</value>
 				<value>
 					com/ustb/entity/Student.hbm.xml
+				</value>
+				<value>
+					com/ustb/entity/ExperimentTable.hbm.xml
+				</value>
+				<value>
+					com/ustb/entity/Sign.hbm.xml
 				</value>
 			</list>
 		</property>

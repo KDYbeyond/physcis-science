@@ -11,4 +11,10 @@ public interface StudentDao {
 	List<Student> findByPage(int begin, int pageSize);
 
 	List<Student> findStudentByGroup(String stuGroup);
+
+	void addStudent(Student student);
+
+	Student findStudentByStuNum(String stuNum);
+	
+	int findCount();
 }

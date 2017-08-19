@@ -3,9 +3,11 @@ package com.ustb.Dao;
 import com.ustb.entity.ExperimentTable;
 
 /**
- * @author ¿ï¶«Ñó E-mail:473948143@qq.com
- * @version ´´½¨Ê±¼ä£º2017Äê8ÔÂ5ÈÕ ÏÂÎç8:42:44 ÀàËµÃ÷
+ * @author ï¿½ï¶«ï¿½ï¿½ E-mail:473948143@qq.com
+ * @version ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£º2017ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½8:42:44 ï¿½ï¿½Ëµï¿½ï¿½
  */
 public interface ExperimentTableDao {
 	void addTable(ExperimentTable experimentTable);
+
+	ExperimentTable findTableByGroup(String group);
 }

@@ -1,24 +1,29 @@
 package com.ustb.ServiceImpl;
 
-import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
-
 import com.ustb.Dao.ExperimentTableDao;
 import com.ustb.Service.ExperimentTableService;
 import com.ustb.entity.ExperimentTable;
 
 /**
- * @author ¿ï¶«Ñó E-mail:473948143@qq.com
- * @version ´´½¨Ê±¼ä£º2017Äê8ÔÂ5ÈÕ ÏÂÎç9:04:36 ÀàËµÃ÷
+ * @author ï¿½ï¶«ï¿½ï¿½ E-mail:473948143@qq.com
+ * @version ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£º2017ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½9:04:36 ï¿½ï¿½Ëµï¿½ï¿½
  */
-public class ExperimentServiceImpl extends HibernateDaoSupport implements ExperimentTableService {
+public class ExperimentServiceImpl implements ExperimentTableService {
 	private ExperimentTableDao experimentTableDao;
+
 	public ExperimentTableDao getExperimentTableDao() {
 		return experimentTableDao;
 	}
+
 	public void setExperimentTableDao(ExperimentTableDao experimentTableDao) {
 		this.experimentTableDao = experimentTableDao;
 	}
+
 	public void addTable(ExperimentTable experimentTable) {
 		experimentTableDao.addTable(experimentTable);
+	}
+
+	public ExperimentTable findTableByGroup(String group) {
+		return experimentTableDao.findTableByGroup(group);
 	}
 }

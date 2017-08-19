@@ -14,8 +14,8 @@ import com.ustb.Service.ExperimentTableService;
 import com.ustb.entity.ExperimentTable;
 
 /**
- * @author ¿ï¶«Ñó E-mail:473948143@qq.com
- * @version ´´½¨Ê±¼ä£º2017Äê8ÔÂ5ÈÕ ÏÂÎç10:53:53 ÀàËµÃ÷
+ * @author ï¿½ï¶«ï¿½ï¿½ E-mail:473948143@qq.com
+ * @version ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£º2017ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½10:53:53 ï¿½ï¿½Ëµï¿½ï¿½
  */
 public class AddTableServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -40,44 +40,44 @@ public class AddTableServlet extends HttpServlet {
 		experimentTable.setThird_weeks(req.getParameter("third_weeks"));
 		experimentTable.setThird_address(req.getParameter("third_address"));
 		experimentTable.setFour_name(req.getParameter("four_name"));
-		experimentTable.setFour_weeks(req.getParameter(""));
-		experimentTable.setFour_address(req.getParameter(""));
-		experimentTable.setFive_name(req.getParameter(""));
-		experimentTable.setFive_weeks(req.getParameter(""));
-		experimentTable.setFive_address(req.getParameter(""));
-		experimentTable.setSix_name(req.getParameter(""));
-		experimentTable.setSix_weeks(req.getParameter(""));
-		experimentTable.setSix_address(req.getParameter(""));
-		experimentTable.setSeven_name(req.getParameter(""));
-		experimentTable.setSeven_weeks(req.getParameter(""));
-		experimentTable.setSeven_address(req.getParameter(""));
-		experimentTable.setEight_name(req.getParameter(""));
-		experimentTable.setEight_weeks(req.getParameter(""));
-		experimentTable.setEight_address(req.getParameter(""));
-		experimentTable.setNine_name(req.getParameter(""));
-		experimentTable.setNine_weeks(req.getParameter(""));
-		experimentTable.setNine_address(req.getParameter(""));
-		experimentTable.setTen_name(req.getParameter(""));
-		experimentTable.setTen_weeks(req.getParameter(""));
-		experimentTable.setTen_address(req.getParameter(""));
-		experimentTable.setEvelen_name(req.getParameter(""));
-		experimentTable.setEvelen_weeks(req.getParameter(""));
-		experimentTable.setEvelen_address(req.getParameter(""));
-		experimentTable.setTween_name(req.getParameter(""));
-		experimentTable.setTween_weeks(req.getParameter(""));
-		experimentTable.setTween_address(req.getParameter(""));
-		experimentTable.setThirty_name(req.getParameter(""));
-		experimentTable.setThirty_weeks(req.getParameter(""));
-		experimentTable.setThirty_address(req.getParameter(""));
-		experimentTable.setFourty_name(req.getParameter(""));
-		experimentTable.setFourty_weeks(req.getParameter(""));
-		experimentTable.setFourty_address(req.getParameter(""));
-		experimentTable.setFifty_name(req.getParameter(""));
-		experimentTable.setFifty_weeks(req.getParameter(""));
-		experimentTable.setFifty_address(req.getParameter(""));
-		experimentTable.setSixty_name(req.getParameter(""));
-		experimentTable.setSixty_weeks(req.getParameter(""));
-		experimentTable.setSixty_address(req.getParameter(""));
+		experimentTable.setFour_weeks(req.getParameter("four_weeks"));
+		experimentTable.setFour_address(req.getParameter("four_address"));
+		experimentTable.setFive_name(req.getParameter("five_name"));
+		experimentTable.setFive_weeks(req.getParameter("five_weeks"));
+		experimentTable.setFive_address(req.getParameter("five_address"));
+		experimentTable.setSix_name(req.getParameter("six_name"));
+		experimentTable.setSix_weeks(req.getParameter("six_weeks"));
+		experimentTable.setSix_address(req.getParameter("six_address"));
+		experimentTable.setSeven_name(req.getParameter("seven_name"));
+		experimentTable.setSeven_weeks(req.getParameter("seven_weeks"));
+		experimentTable.setSeven_address(req.getParameter("seven_address"));
+		experimentTable.setEight_name(req.getParameter("eight_name"));
+		experimentTable.setEight_weeks(req.getParameter("eight_weeks"));
+		experimentTable.setEight_address(req.getParameter("eight_address"));
+		experimentTable.setNine_name(req.getParameter("nine_name"));
+		experimentTable.setNine_weeks(req.getParameter("nine_weeks"));
+		experimentTable.setNine_address(req.getParameter("nine_address"));
+		experimentTable.setTen_name(req.getParameter("ten_name"));
+		experimentTable.setTen_weeks(req.getParameter("ten_weeks"));
+		experimentTable.setTen_address(req.getParameter("ten_address"));
+		experimentTable.setEvelen_name(req.getParameter("evelen_name"));
+		experimentTable.setEvelen_weeks(req.getParameter("evelen_weeks"));
+		experimentTable.setEvelen_address(req.getParameter("evelen_address"));
+		experimentTable.setTween_name(req.getParameter("tween_name"));
+		experimentTable.setTween_weeks(req.getParameter("tween_weeks"));
+		experimentTable.setTween_address(req.getParameter("tween_address"));
+		experimentTable.setThirty_name(req.getParameter("thirty_name"));
+		experimentTable.setThirty_weeks(req.getParameter("thirty_weeks"));
+		experimentTable.setThirty_address(req.getParameter("thirty_address"));
+		experimentTable.setFourty_name(req.getParameter("fourty_name"));
+		experimentTable.setFourty_weeks(req.getParameter("fourty_weeks"));
+		experimentTable.setFourty_address(req.getParameter("fourty_address"));
+		experimentTable.setFifty_name(req.getParameter("fifty_name"));
+		experimentTable.setFifty_weeks(req.getParameter("fifty_weeks"));
+		experimentTable.setFifty_address(req.getParameter("fifty_address"));
+		experimentTable.setSixty_name(req.getParameter("sixty_name"));
+		experimentTable.setSixty_weeks(req.getParameter("sixty_weeks"));
+		experimentTable.setSixty_address(req.getParameter("sixty_address"));
 		experimentTableService.addTable(experimentTable);
 	}
 

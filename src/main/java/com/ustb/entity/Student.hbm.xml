@@ -10,6 +10,9 @@
 		<property name="stuName" type="java.lang.String">
 			<column name="StuName" />
 		</property>
+		<property name="stuPass" type="java.lang.String">
+			<column name="StuPass" />
+		</property>
 		<property name="stuGroup" type="java.lang.String">
 			<column name="StuGroup" />
 		</property>

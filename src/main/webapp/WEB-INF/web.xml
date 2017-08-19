@@ -23,10 +23,15 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:applicationContext.xml</param-value>
 	</context-param>
+	<!-- filter过滤器配置 -->
 	<filter>
 		<filter-name>SpringOpenSessionInViewFilter</filter-name>
 		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter
 		</filter-class>
+		<init-param>
+			<param-name>flushMode</param-name>
+			<param-value>AUTO</param-value>
+		</init-param>
 	</filter>
 	<filter-mapping>
 		<filter-name>SpringOpenSessionInViewFilter</filter-name>
@@ -50,7 +55,36 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ExperimentTable</servlet-name>
-		<url-pattern>/ExperimentTable.servlet</url-pattern>
+		<url-pattern>/experimentTable.servlet</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.ustb.servlet.RegisterServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/registerServlet.servlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StudentLogin</servlet-name>
+		<servlet-class>com.ustb.servlet.StudentLoginServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentLogin</servlet-name>
+		<url-pattern>/studentLoginServlet.servlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SignServlet</servlet-name>
+		<servlet-class>com.ustb.servlet.SignServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignServlet</servlet-name>
+		<url-pattern>/signServlet.servlet</url-pattern>
+	</servlet-mapping>
 </web-app>

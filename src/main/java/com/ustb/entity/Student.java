@@ -7,7 +7,16 @@ package com.ustb.entity;
 public class Student {
 	private String stuNum;
 	private String stuName;
+	private String stuPass;
 	private String stuGroup;
+
+	public String getStuPass() {
+		return stuPass;
+	}
+
+	public void setStuPass(String stuPass) {
+		this.stuPass = stuPass;
+	}
 
 	public String getStuNum() {
 		return stuNum;
