@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ustb.entity.Sign" table="t_sign">
+		<id name="stuNum" type="java.lang.String">
+			<column name="StuNum" />
+			<generator class="assigned" />
+		</id>
+		<property name="stuName" type="java.lang.String">
+			<column name="StuName" />
+		</property>
+		<property name="signTimes" type="java.lang.String">
+			<column name="SignTimes" />
+		</property>
+		<property name="testbedNum" type="java.lang.String">
+			<column name="TestBedNum" />
+		</property>
+		<property name="isNormal" type="java.lang.String">
+			<column name="IsNormal" />
+		</property>
+		<property name="operSituation" type="java.lang.String">
+			<column name="OperSituation" />
+		</property>
+		<property name="experimentName" type="java.lang.String">
+			<column name="ExperimentName" />
+		</property>
+		<property name="experimentTime" type="java.lang.String">
+			<column name="ExperimentTime" />
+		</property>
+		<property name="experimentAddress" type="java.lang.String">
+			<column name="ExperimentAddress" />
+		</property>
+	</class>
+</hibernate-mapping>
