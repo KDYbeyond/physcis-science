@@ -7,6 +7,18 @@
 <title></title>
 </head>
 <body>
-实验查看
+<center>
+<table>
+<tr>
+<td>
+
+<a><img alt="" src=""/>
+<span>非线性电阻的伏安特性</span>
+</a>
+
+</td>
+</tr>
+</table>
+</center>
 </body>
 </html>
